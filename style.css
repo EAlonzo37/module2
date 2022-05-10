@@ -1,0 +1,211 @@
+body{ 
+    background-color: green; 
+}
+
+*{
+  box-sizing: border-box;
+}
+
+h1{
+  text-align: center;
+}
+
+p {
+  background-color: #bfbfbf;
+  border: 2px solid black;
+  height: 150px;
+  margin-right: 10px;
+  padding: 40px 10px 5px 10px;
+  overflow: hidden;
+}
+
+
+#container {
+  position: relative;
+  
+}
+
+#p1 {
+  background-color: #D59898;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-weight: bold;
+  height: 35px;
+  width: 120px;
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+#p2 {
+  background-color:#C14543 ;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-weight: bold;
+  height: 35px;
+  width: 120px;
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+#p3 {
+ background-color: #E5D198;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-weight: bold;
+  height: 35px;
+  width: 120px;
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.pas {
+  width: 100%;
+
+}
+
+
+
+@media (min-width: 992px) {
+  .caja1, .caja2, .caja3, .caja4, .caja5, .caja6, .caja7, .caja8, .caja9, .caja10, .caja11, .caja12 {
+    float: left;
+  }
+  .caja1 {
+    width: 8.33%;
+  }
+  .caja2 {
+    width: 16.66%;
+  }
+  .caja3 {
+    width: 25%;
+  }
+  .caja4 {
+    width: 33.33%;
+  
+  }
+  .caja5 {
+    width: 41.66%;
+  }
+  .caja6 {
+    width: 50%;
+  }
+  .caja7 {
+    width: 58.33%;
+  }
+  .caja8 {
+    width: 66.66%;
+  }
+  .caja9 {
+    width: 74.99%;
+  }
+  .caja10 {
+    width: 83.33%;
+  }
+  .caja11 {
+    width: 91.66%;
+  }
+  .caja12 {
+    width: 100%;
+  }
+
+  
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .caja1, .caja2, .caja3, .caja4, .caja5, .caja6, .caja7, .caja8, .caja9, .caja10, .caja11, .caja12 {
+    float: left;
+    
+   
+  }
+  .caja1 {
+    width: 8.33%;
+  }
+  .caja2 {
+    width: 16.66%;
+  }
+  .caja3 {
+    width: 25%;
+  }
+  .caja4 {
+    width: 33.33%;
+  }
+  .caja5 {
+    width: 41.66%;
+  }
+  .caja6 {
+    width: 50%;
+  }
+  .caja7 {
+    width: 58.33%;
+  }
+  .caja8 {
+    width: 66.66%;
+  }
+  .caja9 {
+    width: 74.99%;
+  }
+  .caja10 {
+    width: 83.33%;
+  }
+  .caja11 {
+    width: 91.66%;
+  }
+  .caja12 {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .caja1, .caja2, .caja3, .caja4, .caja5, .caja6, .caja7, .caja8, .caja9, .caja10, .caja11, .caja12 {
+    float: left;
+  }
+  .caja1 {
+    width: 8.33%;
+  }
+  .caja2 {
+    width: 16.66%;
+  }
+  .caja3 {
+    width: 25%;
+  }
+  .caja4 {
+    width: 33.33%;
+  
+  }
+  .caja5 {
+    width: 41.66%;
+  }
+  .caja6 {
+    width: 50%;
+  }
+  .caja7 {
+    width: 58.33%;
+  }
+  .caja8 {
+    width: 66.66%;
+  }
+  .caja9 {
+    width: 74.99%;
+  }
+  .caja10 {
+    width: 83.33%;
+  }
+  .caja11 {
+    width: 91.66%;
+  }
+  .caja12 {
+    width: 100%;
+  }
+
+  
+}
